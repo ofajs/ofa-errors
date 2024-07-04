@@ -1,4 +1,9 @@
 {
-  "load_fail": "Load {url} failed, status code: {status}",
-  "load_module": "Load module failed, module address: {url}"
+  "load_fail": "Load {url} failed",
+  "load_fail_status": "Load {url} failed, status code: {status}",
+  "load_module": "Load module failed, module address: {url}",
+  "no_alias": "No alias found: {name}, so '{url}' request is invalid",
+  "config_alias_name_error": "Error in setting alias, must start with '@'",
+  "alias_already": "Alias ​​'{name}' already exists",
+  "alias_relate_name": "Alias ​​cannot be configured with relative address, '{name}':'{path}'"
 }

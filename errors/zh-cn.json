@@ -1,4 +1,9 @@
 {
-  "load_fail": "加载 {url} 失败，状态码为：{status}",
-  "load_module": "加载模块失败，模块的地址为：{url}"
+  "load_fail": "加载 {url} 失败",
+  "load_fail_status": "加载 {url} 失败，状态码为：{status}",
+  "load_module": "加载模块失败，模块的地址为：{url}",
+  "no_alias": "没有查找到别名:{name}，所以 '{url}' 请求无效",
+  "config_alias_name_error": "设置别名出错，必须带有'@'开头",
+  "alias_already": "别名'{name}'已经存在",
+  "alias_relate_name": "别名不能配置相对地址，'{name}':'{path}'"
 }
