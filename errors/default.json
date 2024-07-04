@@ -1,0 +1,4 @@
+{
+  "load_fail": "Load {url} failed, status code: {status}",
+  "load_module": "Load module failed, module address: {url}"
+}
