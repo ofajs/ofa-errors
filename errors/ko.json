@@ -10,6 +10,7 @@
   "failed_to_get_data": "{key} 가져오기 오류",
   "nexttick_thread_limit": "nextTick 스레드 제한을 초과하여 무한 루프가 발생할 수 있습니다. 함수를 수정하거나 최적화해주세요.",
   "not_func": "{name} 메소드의 콜백 매개변수는 함수여야 합니다",
+  "heed_object": "'heed' 템플릿 구문에서 반환된 데이터는 객체 유형이 될 수 없습니다. 반환된 객체는 프레임워크에 의해 내부적으로 전체 복사됩니다. 객체 데이터를 반환하면 쉽게 성능 위기가 발생할 수 있습니다. 시도해 보세요. 문자열 또는 숫자 유형을 사용하려면 ",
   "xhear_wrap_no_parent": "대상 요소에 부모 요소가 없으므로 warp 메소드를 사용할 수 없습니다",
   "xhear_unwrap_has_siblings": "대상 요소에 인접한 노드가 있으므로 unwrap 메소드를 사용할 수 없습니다",
   "xhear_reander_err": "태그 '{tag}' 렌더링 실패",
