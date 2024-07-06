@@ -11,18 +11,30 @@ if (globalThis.navigator && navigator.language) {
     langFirst = "zhft";
   }
 
-  fetch(`${error_origin}/${langFirst}.json`)
-    .catch(() => {
-      return fetch(`${error_origin}/default.json`);
-    })
-    .then((e) => e.json())
-    .catch((err) => {
-      console.error(err);
-      return {};
-    })
-    .then((data) => {
-      Object.assign(errors, data);
-    });
+  (async () => {
+    let targetLangErrors;
+
+    if (localStorage.getItem("ofa-errors")) {
+      targetLangErrors = JSON.parse(localStorage.getItem("ofa-errors"));
+    } else {
+      targetLangErrors = await fetch(`${error_origin}/${langFirst}.json`)
+        .then((e) => e.json())
+        .catch(() => null);
+
+      if (targetLangErrors) {
+        localStorage.setItem("ofa-errors", JSON.stringify(targetLangErrors));
+      } else {
+        targetLangErrors = await fetch(`${error_origin}/en.json`)
+          .then((e) => e.json())
+          .catch((error) => {
+            console.error(error);
+            return null;
+          });
+      }
+    }
+
+    Object.assign(errors, targetLangErrors);
+  })();
 }
 /**
  * 根据键、选项和错误对象生成错误对象。
