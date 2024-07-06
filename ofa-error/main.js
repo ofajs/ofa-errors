@@ -36,6 +36,14 @@ if (globalThis.navigator && navigator.language) {
     Object.assign(errors, targetLangErrors);
   })();
 }
+
+let isSafari = false;
+if (globalThis.navigator) {
+  isSafari =
+    navigator.userAgent.includes("Safari") &&
+    !navigator.userAgent.includes("Chrome");
+}
+
 /**
  * 根据键、选项和错误对象生成错误对象。
  *
@@ -45,10 +53,16 @@ if (globalThis.navigator && navigator.language) {
  * @returns {Error} 生成的错误对象。
  */
 export const getErr = (key, options, error) => {
-  const desc = getErrDesc(key, options);
+  let desc = getErrDesc(key, options);
 
   let errObj;
   if (error) {
+    if (isSafari) {
+      desc += `\nCaused by: ${error.toString()}\n  ${error.stack.replace(
+        /\n/g,
+        "\n    "
+      )}`;
+    }
     errObj = new Error(desc, { cause: error });
   } else {
     errObj = new Error(desc);
