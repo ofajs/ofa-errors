@@ -9,6 +9,7 @@
   "failed_to_set_data": "属性値 {key} の設定エラー",
   "failed_to_get_data": "{key} の取得エラー",
   "nexttick_thread_limit": "nextTick がスレッド制限を超えているため、無限ループが発生する可能性があります。関数を修復または最適化してください。",
+  "not_func": "{name} メソッドのコールバック パラメーターは Function である必要があります",
   "xhear_wrap_no_parent": "対象要素には親要素がないため、ワープ方法は使用できません",
   "xhear_unwrap_has_siblings": "ターゲット要素には隣接するノードが含まれているため、unwrap メソッドは使用できません",
   "xhear_reander_err": "タグ '{tag}' のレンダリングに失敗しました",

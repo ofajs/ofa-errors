@@ -9,6 +9,7 @@
   "failed_to_set_data": "속성 값 {key} 설정 오류",
   "failed_to_get_data": "{key} 가져오기 오류",
   "nexttick_thread_limit": "nextTick 스레드 제한을 초과하여 무한 루프가 발생할 수 있습니다. 함수를 수정하거나 최적화해주세요.",
+  "not_func": "{name} 메소드의 콜백 매개변수는 함수여야 합니다",
   "xhear_wrap_no_parent": "대상 요소에 부모 요소가 없으므로 warp 메소드를 사용할 수 없습니다",
   "xhear_unwrap_has_siblings": "대상 요소에 인접한 노드가 있으므로 unwrap 메소드를 사용할 수 없습니다",
   "xhear_reander_err": "태그 '{tag}' 렌더링 실패",

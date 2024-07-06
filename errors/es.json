@@ -9,6 +9,7 @@
   "failed_to_set_data": "Error al establecer el valor de la propiedad {key}",
   "failed_to_get_data": "Error al obtener {key}",
   "nexttick_thread_limit": "nextTick ha superado el límite de hilos, puede haber un bucle infinito, intente reparar o optimizar la función",
+  "not_func": "El parámetro de devolución de llamada del método {nombre} debe ser Función",
   "xhear_wrap_no_parent": "El elemento de destino no tiene un elemento padre, no se puede usar el método warp",
   "xhear_unwrap_has_siblings": "El elemento de destino contiene nodos adyacentes, no se puede usar el método unwrap",
   "xhear_reander_err": "Error al renderizar la etiqueta '{tag}'",

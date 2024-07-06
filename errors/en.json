@@ -9,6 +9,7 @@
   "failed_to_set_data": "Error in setting attribute value {key}",
   "failed_to_get_data": "Error in getting {key}",
   "nexttick_thread_limit": "nextTick exceeds thread limit, may have an infinite loop, please try to repair or optimize the function",
+  "not_func": "The callback parameter of the {name} method must be a Function",
   "xhear_wrap_no_parent": "The target element has no parent element, the warp method cannot be used",
   "xhear_unwrap_has_siblings": "The target element contains adjacent nodes, the unwrap method cannot be used",
   "xhear_reander_err": "Failed to render the tag '{tag}'",

@@ -9,6 +9,7 @@
   "failed_to_set_data": "設置屬性值 {key} 出錯",
   "failed_to_get_data": "獲取 {key} 出錯",
   "nexttick_thread_limit": "nextTick超出線程限製，可能出現了死循環，請嘗試修復或優化函數",
+  "not_func": "{name}方法的回調參數必須是Function",
   "xhear_wrap_no_parent": "目標元素沒有父元素，不能使用warp方法",
   "xhear_unwrap_has_siblings": "目標元素包含相鄰節點，不能使用unwrap方法",
   "xhear_reander_err": "渲染標簽 '{tag}' 失敗",
