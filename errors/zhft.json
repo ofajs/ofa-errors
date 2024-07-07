@@ -11,6 +11,7 @@
   "nexttick_thread_limit": "nextTick超出線程限製，可能出現了死循環，請嘗試修復或優化函數",
   "not_func": "{name}方法的回調參數必須是Function",
   "heed_object": "請註意'heed'模板語法返回的數據，不允許為 Object 類型，框架內部會將返回的對象進行深拷貝；返回對象數據很容易造成性能危機，清盡量使用 String 或 Number 類型。",
+  "not_found_func": "沒有在目標{tag}上找到'{name}'方法，請在組件{tag}的'proto'上定義'{name}'方法",
   "xhear_wrap_no_parent": "目標元素沒有父元素，不能使用warp方法",
   "xhear_unwrap_has_siblings": "目標元素包含相鄰節點，不能使用unwrap方法",
   "xhear_reander_err": "渲染標簽 '{tag}' 失敗",

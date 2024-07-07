@@ -11,6 +11,7 @@
   "nexttick_thread_limit": "nextTick exceeds thread limit, may have an infinite loop, please try to repair or optimize the function",
   "not_func": "The callback parameter of the {name} method must be a Function",
   "heed_object": "Please note that the data returned by the 'heed' template syntax is not allowed to be of Object type. The framework will make a deep copy of the returned object. Returning object data can easily cause performance problems. Please try to use String or Number types.",
+  "not_found_func": "The '{name}' method was not found on the target {tag}. Please define the '{name}' method on the 'proto' of the component {tag}",
   "xhear_wrap_no_parent": "The target element has no parent element, the warp method cannot be used",
   "xhear_unwrap_has_siblings": "The target element contains adjacent nodes, the unwrap method cannot be used",
   "xhear_reander_err": "Failed to render the tag '{tag}'",
