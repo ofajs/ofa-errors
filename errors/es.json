@@ -42,5 +42,6 @@
   "not_page_module": "{src} no es un módulo de página, no se puede establecer como el src del componente page",
   "page_failed": "Error al cargar la página: {src}",
   "fetch_temp_err": "Error al cargar la plantilla {tempSrc} del módulo de la página {url}",
-  "page_wrap_fetch": "La página {before} no pudo obtener la página padre ({current}) correctamente"
+  "page_wrap_fetch": "La página {before} no pudo obtener la página padre ({current}) correctamente",
+  "context_change_name": "Cambiar el 'nombre' de {compName} puede causar problemas de rendimiento; evite cambiar este atributo"
 }

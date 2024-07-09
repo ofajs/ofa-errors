@@ -42,5 +42,6 @@
   "not_page_module": "{src} はページ モジュールではないため、ページ コンポーネントの src として設定できません",
   "page_failed": "ページの読み込みに失敗しました: {src}",
   "fetch_temp_err": "ページ モジュール {url} がテンプレート {tempSrc} をロードできませんでした",
-  "page_wrap_fetch": "ページ {before} は親ページ ({current}) の取得に失敗しました"
+  "page_wrap_fetch": "ページ {before} は親ページ ({current}) の取得に失敗しました",
+  "context_change_name": "{compName} の「名前」を変更すると、パフォーマンスの問題が発生する可能性があります。この属性は変更しないでください。"
 }

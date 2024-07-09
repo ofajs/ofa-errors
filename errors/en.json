@@ -42,5 +42,6 @@
   "not_page_module": "{src} is not a page module and cannot be set as the src of the page component",
   "page_failed": "Loading page failed: {src}",
   "fetch_temp_err": "Page module {url} failed to load template {tempSrc}",
-  "page_wrap_fetch": "Page {before} failed to get the parent page ({current})"
+  "page_wrap_fetch": "Page {before} failed to get the parent page ({current})",
+  "context_change_name": "Changing the 'name' of {compName} may cause performance issues, please avoid changing this property"
 }

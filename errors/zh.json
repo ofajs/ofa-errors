@@ -42,5 +42,6 @@
   "not_page_module": "{src} 不是页面模块，不能被设置为page组件的src",
   "page_failed": "加载页面失败: {src}",
   "fetch_temp_err": "页面模块 {url} 加载模版 {tempSrc} 失败",
-  "page_wrap_fetch": "页面 {before} 获取父页面({current}) 失败"
+  "page_wrap_fetch": "页面 {before} 获取父页面({current}) 失败",
+  "context_change_name": "更改{compName}的'name'可能会导致性能问题，请避免更改这个属性"
 }
