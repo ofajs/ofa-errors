@@ -43,5 +43,6 @@
   "page_failed": "加載頁面失敗: {src}",
   "fetch_temp_err": "頁面模塊 {url} 加載模版 {tempSrc} 失敗",
   "page_wrap_fetch": "頁面 {before} 獲取父頁面({current}) 失敗",
-  "context_change_name": "更改{compName}的'name'可能會導致性能問題，請避免更改這個屬性"
+  "context_change_name": "更改{compName}的'name'可能會導致性能問題，請避免更改這個屬性",
+  "no_provider": "name為'{name}'的consumer沒有被相應的 provider 捕獲到"
 }
