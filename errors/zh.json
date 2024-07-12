@@ -45,5 +45,6 @@
   "fetch_temp_err": "页面模块 {url} 加载模版 {tempSrc} 失败",
   "page_wrap_fetch": "页面 {before} 获取父页面({current}) 失败",
   "context_change_name": "更改{compName}的'name'可能会导致性能问题，请避免更改这个属性",
-  "no_provider": "name为'{name}'的consumer没有被相应的 provider 捕获到"
+  "no_provider": "name为'{name}'的consumer没有被相应的 provider 捕获到",
+  "page_invalid_key": "页面 {src} 的注册参数有误，'{targetName}'上的'{name}'已被占用，请将'{name}'改为其他名字。"
 }

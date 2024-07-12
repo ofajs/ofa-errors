@@ -45,5 +45,6 @@
   "fetch_temp_err": "Page module {url} failed to load template {tempSrc}",
   "page_wrap_fetch": "Page {before} failed to get the parent page ({current})",
   "context_change_name": "Changing the 'name' of {compName} may cause performance issues, please avoid changing this property",
-  "no_provider": "The consumer named '{name}' was not captured by the corresponding provider"
+  "no_provider": "The consumer named '{name}' was not captured by the corresponding provider",
+  "page_invalid_key": "The registration parameters of page {src} are incorrect. '{name}' on '{targetName}' is already taken. Please change '{name}' to another name."
 }
