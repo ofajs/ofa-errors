@@ -10,7 +10,6 @@
   "failed_to_get_data": "获取 {key} 出错",
   "nexttick_thread_limit": "nextTick超出线程限制，可能出现了死循环，请尝试修复或优化函数",
   "not_func": "{name}方法的回调参数必须是Function",
-  "heed_object": "请注意'heed'模板语法返回的数据，不允许为 Object 类型，框架内部会将返回的对象进行深拷贝；返回对象数据很容易造成性能危机，清尽量使用 String 或 Number 类型。",
   "not_found_func": "没有在目标{tag}上找到'{name}'方法，请在组件{tag}的'proto'上定义'{name}'方法",
   "invalid_key": "注册'{compName}'组件的参数有误，'{targetName}'上的'{name}'已被占用，请将'{name}'改为其他名字。",
   "xhear_wrap_no_parent": "目标元素没有父元素，不能使用warp方法",
@@ -46,5 +45,7 @@
   "page_wrap_fetch": "页面 {before} 获取父页面({current}) 失败",
   "context_change_name": "更改{compName}的'name'可能会导致性能问题，请避免更改这个属性",
   "no_provider": "name为'{name}'的consumer没有被相应的 provider 捕获到",
-  "page_invalid_key": "页面 {src} 的注册参数有误，'{targetName}'上的'{name}'已被占用，请将'{name}'改为其他名字。"
+  "page_invalid_key": "页面 {src} 的注册参数有误，'{targetName}'上的'{name}'已被占用，请将'{name}'改为其他名字。",
+  "root_provider_exist": "名为'{name}'的根provider出现异常，根provider组件只能出现一次",
+  "root_provider_name_change": "名为'{name}'的根provider出现异常，根provider组件不能更改 'name' 属性"
 }

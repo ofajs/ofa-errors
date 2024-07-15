@@ -10,7 +10,6 @@
   "failed_to_get_data": "Error in getting {key}",
   "nexttick_thread_limit": "nextTick exceeds thread limit, may have an infinite loop, please try to repair or optimize the function",
   "not_func": "The callback parameter of the {name} method must be a Function",
-  "heed_object": "Please note that the data returned by the 'heed' template syntax is not allowed to be of Object type. The framework will make a deep copy of the returned object. Returning object data can easily cause performance problems. Please try to use String or Number types.",
   "not_found_func": "The '{name}' method was not found on the target {tag}. Please define the '{name}' method on the 'proto' of the component {tag}",
   "invalid_key": "The parameters for registering the '{compName}' component are incorrect. The '{name}' on '{targetName}' is already occupied. Please change '{name}' to another name.",
   "xhear_wrap_no_parent": "The target element has no parent element, the warp method cannot be used",
@@ -46,5 +45,7 @@
   "page_wrap_fetch": "Page {before} failed to get the parent page ({current})",
   "context_change_name": "Changing the 'name' of {compName} may cause performance issues, please avoid changing this property",
   "no_provider": "The consumer named '{name}' was not captured by the corresponding provider",
-  "page_invalid_key": "The registration parameters of page {src} are incorrect. '{name}' on '{targetName}' is already taken. Please change '{name}' to another name."
+  "page_invalid_key": "The registration parameters of page {src} are incorrect. '{name}' on '{targetName}' is already taken. Please change '{name}' to another name.",
+  "root_provider_exist": "An exception occurred in the root provider named '{name}'. The root provider component can only appear once",
+  "root_provider_name_change": "An exception occurred in the root provider named '{name}'. The root provider component cannot change the 'name' attribute"
 }

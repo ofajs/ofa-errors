@@ -10,7 +10,6 @@
   "failed_to_get_data": "獲取 {key} 出錯",
   "nexttick_thread_limit": "nextTick超出線程限製，可能出現了死循環，請嘗試修復或優化函數",
   "not_func": "{name}方法的回調參數必須是Function",
-  "heed_object": "請註意'heed'模板語法返回的數據，不允許為 Object 類型，框架內部會將返回的對象進行深拷貝；返回對象數據很容易造成性能危機，清盡量使用 String 或 Number 類型。",
   "not_found_func": "沒有在目標{tag}上找到'{name}'方法，請在組件{tag}的'proto'上定義'{name}'方法",
   "invalid_key": "註冊'{compName}'組件的參數有誤，'{targetName}'上的'{name}'已被占用，請將'{name}'改為其他名字。",
   "xhear_wrap_no_parent": "目標元素沒有父元素，不能使用warp方法",
@@ -46,5 +45,7 @@
   "page_wrap_fetch": "頁面 {before} 獲取父頁面({current}) 失敗",
   "context_change_name": "更改{compName}的'name'可能會導致性能問題，請避免更改這個屬性",
   "no_provider": "name為'{name}'的consumer沒有被相應的 provider 捕獲到",
-  "page_invalid_key": "頁面 {src} 的註冊參數有誤，'{targetName}'上的'{name}'已被占用，請將'{name}'改為其他名字。"
+  "page_invalid_key": "頁面 {src} 的註冊參數有誤，'{targetName}'上的'{name}'已被占用，請將'{name}'改為其他名字。",
+  "root_provider_exist": "名為'{name}'的根provider出現異常，根provider組件只能出現一次",
+  "root_provider_name_change": "名為'{name}'的根provider出現異常，根provider組件不能更改 'name' 屬性"
 }

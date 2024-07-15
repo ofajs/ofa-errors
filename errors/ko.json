@@ -10,7 +10,6 @@
   "failed_to_get_data": "{key} 가져오기 오류",
   "nexttick_thread_limit": "nextTick 스레드 제한을 초과하여 무한 루프가 발생할 수 있습니다. 함수를 수정하거나 최적화해주세요.",
   "not_func": "{name} 메소드의 콜백 매개변수는 함수여야 합니다",
-  "heed_object": "'heed' 템플릿 구문에서 반환된 데이터는 객체 유형이 될 수 없습니다. 반환된 객체는 프레임워크에 의해 내부적으로 전체 복사됩니다. 객체 데이터를 반환하면 쉽게 성능 위기가 발생할 수 있습니다. 시도해 보세요. 문자열 또는 숫자 유형을 사용하려면 ",
   "not_found_func": "'{name}' 메소드를 대상 {tag}에서 찾을 수 없습니다. {tag} 구성요소의 'proto'에서 '{name}' 메소드를 정의하십시오.",
   "invalid_key": "'{compName}' 구성요소를 등록하기 위한 매개변수가 올바르지 않습니다. '{targetName}'의 '{name}'이(가) 이미 사용 중입니다. '{name}'을 다른 이름으로 변경하십시오.",
   "xhear_wrap_no_parent": "대상 요소에 부모 요소가 없으므로 warp 메소드를 사용할 수 없습니다",
@@ -46,5 +45,7 @@
   "page_wrap_fetch": "페이지 {before}가 부모 페이지({current})를 올바르게 가져올 수 없습니다",
   "context_change_name": "{compName}의 '이름'을 변경하면 성능 문제가 발생할 수 있습니다. 이 속성을 변경하지 마십시오.",
   "no_provider": "이름이 '{name}'인 소비자는 해당 공급자에 의해 캡처되지 않습니다.",
-  "page_invalid_key": "{src} 페이지의 등록 매개변수가 올바르지 않으며 '{targetName}'의 '{name}'이(가) 사용되었습니다. '{name}'을(를) 다른 이름으로 변경해 주세요."
+  "page_invalid_key": "{src} 페이지의 등록 매개변수가 올바르지 않으며 '{targetName}'의 '{name}'이(가) 사용되었습니다. '{name}'을(를) 다른 이름으로 변경해 주세요.",
+  "root_provider_exist": "'{name}'이라는 루트 공급자에 예외가 있습니다. 루트 공급자 구성 요소는 한 번만 나타날 수 있습니다.",
+  "root_provider_name_change": "'{name}'이라는 루트 공급자에 예외가 있습니다. 루트 공급자 구성 요소는 'name' 속성을 변경할 수 없습니다."
 }

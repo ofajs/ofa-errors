@@ -10,7 +10,6 @@
   "failed_to_get_data": "Error al obtener {key}",
   "nexttick_thread_limit": "nextTick ha superado el límite de hilos, puede haber un bucle infinito, intente reparar o optimizar la función",
   "not_func": "El parámetro de devolución de llamada del método {nombre} debe ser Función",
-  "heed_object": "Tenga en cuenta que los datos devueltos por la sintaxis de la plantilla 'heed' no pueden ser de tipo Objeto. El marco copiará en profundidad el objeto devuelto internamente. Devolver datos de objetos puede causar fácilmente una crisis de rendimiento. Pruebe para utilizar tipos de cadena o número ",
   "not_found_func": "El método '{name}' no se encontró en la {tag} de destino. Por favor, defina el método '{name}' en el 'proto' del componente {tag}",
   "invalid_key": "Los parámetros para registrar el componente '{compName}' son incorrectos. El '{name}' en '{targetName}' ya está ocupado. Cambie '{name}' a otro nombre.",
   "xhear_wrap_no_parent": "El elemento de destino no tiene un elemento padre, no se puede usar el método warp",
@@ -46,5 +45,7 @@
   "page_wrap_fetch": "La página {before} no pudo obtener la página padre ({current}) correctamente",
   "context_change_name": "Cambiar el 'nombre' de {compName} puede causar problemas de rendimiento; evite cambiar este atributo",
   "no_provider": "El consumidor cuyo nombre es '{name}' no es capturado por el proveedor correspondiente",
-  "page_invalid_key": "Los parámetros de registro de la página {src} son incorrectos y el '{name}' en '{targetName}' ha sido ocupado. Cambie '{name}' por otro nombre."
+  "page_invalid_key": "Los parámetros de registro de la página {src} son incorrectos y el '{name}' en '{targetName}' ha sido ocupado. Cambie '{name}' por otro nombre.",
+  "root_provider_exist": "El proveedor raíz llamado '{name}' tiene una excepción. El componente del proveedor raíz sólo puede aparecer una vez",
+  "root_provider_name_change": "El proveedor raíz llamado '{name}' tiene una excepción. El componente del proveedor raíz no puede cambiar el atributo 'nombre'"
 }
