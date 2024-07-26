@@ -47,5 +47,16 @@
   "no_provider": "name為'{name}'的consumer沒有被相應的 provider 捕獲到",
   "page_invalid_key": "頁面 {src} 的註冊參數有誤，'{targetName}'上的'{name}'已被占用，請將'{name}'改為其他名字。",
   "root_provider_exist": "名為'{name}'的根provider出現異常，根provider組件只能出現一次",
-  "root_provider_name_change": "名為'{name}'的根provider出現異常，根provider組件不能更改 'name' 屬性"
+  "root_provider_name_change": "名為'{name}'的根provider出現異常，根provider組件不能更改 'name' 屬性",
+  "change_lm_src": "{tag}元素更改 'src' 屬性無效，這個屬性只能被設置一次。",
+  "error_no_owner": "此數據有誤，owner沒有登記此對象",
+  "circular_data": "出現循環引用的對象",
+  "fill_type": "'x-fill'的'value'必須是Array類型，當前值的類型為 {type}",
+  "fill_key_duplicates": "填充組件內的key出現重復",
+  "render_el_error": "渲染元素失敗，渲染錯誤的地方為 {expr}",
+  "temp_multi_child": "模板元素中只能包含一個子元素。如果出現多個子元素，則子元素將重新包裝在一個<div> 元素中",
+  "temp_wrap_child": "模板'{tempName}'包含 {len} 個子元素，這些子元素已被包裹在具有屬性'{wrapName}'的 div 元素中。",
+  "app_noback": "已經是第一頁，不可以再執行 'back' 操作",
+  "invalidated_inject_host": "此元素將在'inject-host'中失效",
+  "olink_out_app": "[olink]的元素僅允許在 o-app 內使用"
 }

@@ -47,5 +47,16 @@
   "no_provider": "El consumidor cuyo nombre es '{name}' no es capturado por el proveedor correspondiente",
   "page_invalid_key": "Los parámetros de registro de la página {src} son incorrectos y el '{name}' en '{targetName}' ha sido ocupado. Cambie '{name}' por otro nombre.",
   "root_provider_exist": "El proveedor raíz llamado '{name}' tiene una excepción. El componente del proveedor raíz sólo puede aparecer una vez",
-  "root_provider_name_change": "El proveedor raíz llamado '{name}' tiene una excepción. El componente del proveedor raíz no puede cambiar el atributo 'nombre'"
+  "root_provider_name_change": "El proveedor raíz llamado '{name}' tiene una excepción. El componente del proveedor raíz no puede cambiar el atributo 'nombre'",
+  "change_lm_src": "El cambio del atributo 'src' del elemento {tag} no es válido. Este atributo sólo se puede establecer una vez.",
+  "error_no_owner": "Estos datos son incorrectos, el propietario no ha registrado este objeto",
+  "circular_data": "Objeto con referencia circular",
+  "fill_type": "El 'valor' de 'x-fill' debe ser de tipo Array y el tipo de valor actual es {type}",
+  "fill_key_duplicates": "Las claves en el componente de relleno están duplicadas",
+  "render_el_error": "El elemento de renderizado falló, el error de renderizado es {expr}",
+  "temp_multi_child": "Un elemento de plantilla sólo puede contener un elemento secundario. Si aparecen varios elementos secundarios, el elemento secundario se volverá a empaquetar en un elemento <div>",
+  "temp_wrap_child": "La plantilla '{tempName}' contiene {len} elementos secundarios que han sido envueltos en un elemento div con el atributo '{wrapName}'.",
+  "app_noback": "Ya es la primera página, no se puede realizar más operación de 'retroceder'",
+  "invalidated_inject_host": "Este elemento será invalidado en 'inject-host'",
+  "olink_out_app": "Los elementos [olink] solo pueden usarse dentro de o-app"
 }

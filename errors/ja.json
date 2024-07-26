@@ -47,5 +47,16 @@
   "no_provider": "名前が '{name}' であるコンシューマーは、対応するプロバイダーによってキャプチャされていません。",
   "page_invalid_key": "ページ {src} の登録パラメータが間違っており、'{targetName}' の '{name}' が占有されています。'{name}' を別の名前に変更してください。",
   "root_provider_exist": "'{name}' という名前のルート プロバイダーには例外があります。ルート プロバイダー コンポーネントは 1 回だけ表示できます",
-  "root_provider_name_change": "'{name}' という名前のルート プロバイダーには例外があります。ルート プロバイダー コンポーネントは 'name' 属性を変更できません。"
+  "root_provider_name_change": "'{name}' という名前のルート プロバイダーには例外があります。ルート プロバイダー コンポーネントは 'name' 属性を変更できません。",
+  "change_lm_src": "{tag} 要素の 'src' 属性の変更は無効です。この属性は 1 回だけ設定できます。",
+  "error_no_owner": "このデータは正しくありません。所有者がこのオブジェクトを登録していません。",
+  "circular_data": "循環参照を持つオブジェクト",
+  "fill_type": "'x-fill' の 'value' は配列型である必要があり、現在の値の型は {type} です",
+  "fill_key_duplicates": "塗りつぶしコンポーネントのキーが複製されています",
+  "render_el_error": "要素のレンダリングに失敗しました。レンダリング エラーは {expr}",
+  "temp_multi_child": "テンプレート要素には子要素を 1 つだけ含めることができます。複数の子要素が表示される場合、子要素は <div> 要素に再ラップされます",
+  "temp_wrap_child": "テンプレート '{tempName}' には、属性 '{wrapName}' を持つ div 要素でラップされた {len} 個の子要素が含まれています。",
+  "app_noback": "すでに最初のページなので、これ以上「戻る」操作は実行できません",
+  "invalidated_inject_host": "この要素は 'inject-host' で無効になります",
+  "olink_out_app": "[olink] 要素は o-app 内でのみ使用できます。"
 }

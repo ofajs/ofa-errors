@@ -47,5 +47,16 @@
   "no_provider": "The consumer named '{name}' was not captured by the corresponding provider",
   "page_invalid_key": "The registration parameters of page {src} are incorrect. '{name}' on '{targetName}' is already taken. Please change '{name}' to another name.",
   "root_provider_exist": "An exception occurred in the root provider named '{name}'. The root provider component can only appear once",
-  "root_provider_name_change": "An exception occurred in the root provider named '{name}'. The root provider component cannot change the 'name' attribute"
+  "root_provider_name_change": "An exception occurred in the root provider named '{name}'. The root provider component cannot change the 'name' attribute",
+  "change_lm_src": "{tag} element changes 'src' attribute invalid, this attribute can only be set once.",
+  "error_no_owner": "This data is incorrect, the owner has not registered this object",
+  "circular_data": "An object with a circular reference",
+  "fill_type": "'value' of 'x-fill' must be of type Array, the current value is of type {type}",
+  "fill_key_duplicates": "The key in the fill component is repeated",
+  "render_el_error": "Rendering element failed, rendering error is {expr}",
+  "temp_multi_child": "The template element can only contain one child element. If multiple child elements appear, the child elements will be repackaged in a <div> element",
+  "temp_wrap_child": "The template '{tempName}' contains {len} child elements, which have been wrapped in a div element with the attribute '{wrapName}'.",
+  "app_noback": "This is already the first page, and the 'back' operation cannot be performed again",
+  "invalidated_inject_host": "This element will be invalidated in 'inject-host'",
+  "olink_out_app": "The element of [olink] is only allowed in o-app"
 }
