@@ -58,5 +58,7 @@
   "temp_wrap_child": "La plantilla '{tempName}' contiene {len} elementos secundarios que han sido envueltos en un elemento div con el atributo '{wrapName}'.",
   "app_noback": "Ya es la primera página, no se puede realizar más operación de 'retroceder'",
   "invalidated_inject_host": "Este elemento será invalidado en 'inject-host'",
-  "olink_out_app": "Los elementos [olink] solo pueden usarse dentro de o-app"
+  "olink_out_app": "Los elementos [olink] solo pueden usarse dentro de o-app",
+  "app_noforward": "Esta es la última página, no se pueden realizar más operaciones de 'reenvío'",
+  "need_forwards": "La aplicación o de destino no permite operaciones directas, agregue el atributo '_forwards' al destino; o en el archivo de configuración de la aplicación, agregue 'export const enableForward = true' "
 }

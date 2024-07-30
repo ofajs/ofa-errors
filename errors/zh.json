@@ -58,5 +58,7 @@
   "temp_wrap_child": "模板'{tempName}'包含 {len} 个子元素，这些子元素已被包裹在具有属性'{wrapName}'的 div 元素中。",
   "app_noback": "已经是第一页，不可以再执行 'back' 操作",
   "invalidated_inject_host": "此元素将在'inject-host'中失效",
-  "olink_out_app": "[olink]的元素仅允许在 o-app 内使用"
+  "olink_out_app": "[olink]的元素仅允许在 o-app 内使用",
+  "app_noforward": "已经是最后一页，不可以再执行 'forward' 操作",
+  "need_forwards": "目标o-app不允许前进操作，请给目标添加 '_forwards' 属性；或者在 app config文件中，添加 'export const allowForward = true' "
 }

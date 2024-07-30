@@ -58,5 +58,7 @@
   "temp_wrap_child": "'{tempName}' 템플릿에는 '{wrapName}' 속성이 있는 div 요소에 래핑된 {len} 하위 요소가 포함되어 있습니다.",
   "app_noback": "이미 첫 번째 페이지이므로 더 이상 '뒤로' 작업을 수행할 수 없습니다.",
   "invalidated_inject_host": "이 요소는 'inject-host'에서 무효화됩니다.",
-  "olink_out_app": "[olink] 요소는 o-app 내에서만 사용할 수 있습니다."
+  "olink_out_app": "[olink] 요소는 o-app 내에서만 사용할 수 있습니다.",
+  "app_noforward": "이 페이지는 마지막 페이지입니다. 더 이상 '앞으로' 작업을 수행할 수 없습니다.",
+  "need_forwards": "대상 o-app은 전달 작업을 허용하지 않습니다. 대상에 '_forwards' 속성을 추가하거나 앱 구성 파일에 'export constallowForward = true'를 추가하세요."
 }
