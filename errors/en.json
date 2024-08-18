@@ -20,7 +20,7 @@
   "xhear_validate_tag": "The registered component name '{str}' is incorrect. For the Web Components naming rules, please refer to: https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names ",
   "xhear_tag_noline": "The registered component name '{str}' is incorrect and contains at least one '-' character; Web Components For naming rules, please refer to: https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names ",
   "xhear_regster_data_noset": "Error in registering component {tag}, custom data cannot have data of type 'Set' or 'Map'",
-  "xhear_regster_data_nofunc": "Error in registering component {tag}, functions cannot appear in custom data, please put functions in 'proto'",
+  "xhear_regster_data_nofunc": "Registration component {tag} error, functions cannot appear in custom data, please put the function in 'proto'; or change '{key}' to '_{key}'",
   "xhear_fakenode_unclose": "This is an unclosed FakeNode; use the wrong attribute name: {name}",
   "xhear_fill_tempname": "Fill component template '{name}' not found",
   "xhear_eval": "Template syntax '{name}' error, expression {name}:{arg0}=\"{arg1}\"",

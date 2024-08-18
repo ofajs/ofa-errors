@@ -20,7 +20,7 @@
   "xhear_validate_tag": "El nombre del componente registrado '{str}' es incorrecto, consulte las reglas de nomenclatura de Web Components en: https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names",
   "xhear_tag_noline": "El nombre del componente registrado '{str}' es incorrecto, debe contener al menos un carácter '-'; consulte las reglas de nomenclatura de Web Components en: https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names",
   "xhear_regster_data_noset": "Error al registrar el componente {tag}, los datos personalizados no pueden contener datos de tipo 'Set' o 'Map'",
-  "xhear_regster_data_nofunc": "Error al registrar el componente {tag}, los datos personalizados no pueden contener funciones, coloque las funciones en 'proto'",
+  "xhear_regster_data_nofunc": "Error al registrar el componente {tag}. Las funciones no pueden aparecer en los datos personalizados. Coloque la función en 'proto'; o cambie '{key}' a '_{key}'",
   "xhear_fakenode_unclose": "Este es un FakeNode no cerrado; se usó un nombre de propiedad incorrecto: {name}",
   "xhear_fill_tempname": "No se encontró la plantilla para el componente de relleno '{name}'",
   "xhear_eval": "Error de sintaxis en la plantilla '{name}', la expresión es {name}:{arg0}=\"{arg1}\"",

@@ -20,7 +20,7 @@
   "xhear_validate_tag": "登録されたコンポーネント名 '{str}' が正しくありません。Web コンポーネントの命名規則については、https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names を参照してください。 ",
   "xhear_tag_noline": "登録されたコンポーネント名 '{str}' は正しくなく、少なくとも 1 つの '-' 文字が含まれています。Web コンポーネントの命名規則については、https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names を参照してください。 ",
   "xhear_regster_data_noset": "コンポーネント {tag} の登録中にエラーが発生しました。カスタム データにはタイプ 'Set' または 'Map' のデータを含めることはできません。",
-  "xhear_regster_data_nofunc": "登録コンポーネント {tag} でエラーが発生しました。関数はカスタム データに表示できません。関数を 'proto' に入れてください。",
+  "xhear_regster_data_nofunc": "コンポーネント {tag} の登録中にエラーが発生しました。関数をカスタム データに含めることはできません。関数を 'proto' に配置するか、'{key}' を '_{key}' に変更してください ",
   "xhear_fakenode_unclose": "これは閉じられていない FakeNode です。間違った属性名を使用しています: {name}",
   "xhear_fill_tempname": "塗りつぶしコンポーネントのテンプレート '{name}' が見つかりません",
   "xhear_eval": "テンプレート構文 '{name}' がエラーを報告しました、式 {name}:{arg0}=\"{arg1}\"",

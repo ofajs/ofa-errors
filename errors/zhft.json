@@ -20,7 +20,7 @@
   "xhear_validate_tag": "註冊組件名 '{str}' 有誤，Web Components 命名規則請參閱： https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names ",
   "xhear_tag_noline": "註冊組件名 '{str}' 有誤，至少包含一個'-'字符；Web Components 命名規則請參閱： https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#valid_custom_element_names ",
   "xhear_regster_data_noset": "註冊組件{tag}錯誤，自定義數據不能出現 'Set' 或 'Map'類型的數據",
-  "xhear_regster_data_nofunc": "註冊組件{tag}錯誤，自定義數據內不能出現函數，請將函數放在 'proto' 內",
+  "xhear_regster_data_nofunc": "註冊組件{tag}錯誤，自定義數據內不能出現函數，請將函數放在 'proto' 內；或者將 '{key}' 更改為 '_{key}' ",
   "xhear_fakenode_unclose": "這個一個沒有關閉的 FakeNode；使用錯誤的屬性名：{name}",
   "xhear_fill_tempname": "填充組件未找到模板'{name}'",
   "xhear_eval": "模板語法'{name}'報錯，表達式 {name}:{arg0}=\"{arg1}\"",
