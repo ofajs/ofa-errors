@@ -1,0 +1,16 @@
+{
+  "name": "ofa-errors",
+  "version": "1.0.0",
+  "description": "Used to store error information",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/gen.js && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yao",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.24.0"
+  }
+}
