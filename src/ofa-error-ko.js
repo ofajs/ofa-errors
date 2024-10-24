@@ -63,5 +63,10 @@ const errorData = {
   "need_forwards": "대상 o-app은 전달 작업을 허용하지 않습니다. 대상에 '_forwards' 속성을 추가하거나 앱 구성 파일에 'export constallowForward = true'를 추가하세요."
 };
 
-localStorage["ofa-errors"] = JSON.stringify(errorData);
+const jsonStr = JSON.stringify(errorData);
+
+if (localStorage["ofa-errors"] !== jsonStr) {
+  localStorage["ofa-errors"] = jsonStr;
+}
+
 localStorage["ofa-errors-time"] = Date.now();

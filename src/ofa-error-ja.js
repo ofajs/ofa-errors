@@ -63,5 +63,10 @@ const errorData = {
   "need_forwards": "ターゲットの o-app では転送操作が許可されていません。ターゲットに '_forwards' 属性を追加するか、アプリ構成ファイルに 'export const allowedForward = true' を追加してください。"
 };
 
-localStorage["ofa-errors"] = JSON.stringify(errorData);
+const jsonStr = JSON.stringify(errorData);
+
+if (localStorage["ofa-errors"] !== jsonStr) {
+  localStorage["ofa-errors"] = jsonStr;
+}
+
 localStorage["ofa-errors-time"] = Date.now();

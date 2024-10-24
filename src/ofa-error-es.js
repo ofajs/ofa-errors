@@ -63,5 +63,10 @@ const errorData = {
   "need_forwards": "La aplicación o de destino no permite operaciones directas, agregue el atributo '_forwards' al destino; o en el archivo de configuración de la aplicación, agregue 'export const enableForward = true' "
 };
 
-localStorage["ofa-errors"] = JSON.stringify(errorData);
+const jsonStr = JSON.stringify(errorData);
+
+if (localStorage["ofa-errors"] !== jsonStr) {
+  localStorage["ofa-errors"] = jsonStr;
+}
+
 localStorage["ofa-errors-time"] = Date.now();

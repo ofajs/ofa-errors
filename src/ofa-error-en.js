@@ -63,5 +63,10 @@ const errorData = {
   "need_forwards": "The target o-app does not allow forward operations, please add the '_forwards' attribute to the target; or in the app config file, add 'export const allowForward = true' "
 };
 
-localStorage["ofa-errors"] = JSON.stringify(errorData);
+const jsonStr = JSON.stringify(errorData);
+
+if (localStorage["ofa-errors"] !== jsonStr) {
+  localStorage["ofa-errors"] = jsonStr;
+}
+
 localStorage["ofa-errors-time"] = Date.now();

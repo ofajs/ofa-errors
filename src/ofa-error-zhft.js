@@ -63,5 +63,10 @@ const errorData = {
   "need_forwards": "目標o-app不允許前進操作，請給目標添加 '_forwards' 屬性；或者在 app config文件中，添加 'export const allowForward = true' "
 };
 
-localStorage["ofa-errors"] = JSON.stringify(errorData);
+const jsonStr = JSON.stringify(errorData);
+
+if (localStorage["ofa-errors"] !== jsonStr) {
+  localStorage["ofa-errors"] = jsonStr;
+}
+
 localStorage["ofa-errors-time"] = Date.now();
