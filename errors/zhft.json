@@ -60,5 +60,6 @@
   "invalidated_inject_host": "此元素將在'inject-host'中失效",
   "olink_out_app": "[olink]的元素僅允許在 o-app 內使用",
   "app_noforward": "已經是最後一頁，不可以再執行 'forward' 操作",
-  "need_forwards": "目標o-app不允許前進操作，請給目標添加 '_forwards' 屬性；或者在 app config文件中，添加 'export const allowForward = true' "
+  "need_forwards": "目標o-app不允許前進操作，請給目標添加 '_forwards' 屬性；或者在 app config文件中，添加 'export const allowForward = true' ",
+  "watchuntil_timeout": "watchUntil超時，沒有監聽到目標值"
 }
