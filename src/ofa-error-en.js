@@ -60,7 +60,8 @@ const errorData = {
   "invalidated_inject_host": "This element will be invalidated in 'inject-host'",
   "olink_out_app": "The element of [olink] is only allowed in o-app",
   "app_noforward": "This is the last page, you can no longer perform the 'forward' operation",
-  "need_forwards": "The target o-app does not allow forward operations, please add the '_forwards' attribute to the target; or in the app config file, add 'export const allowForward = true' "
+  "need_forwards": "The target o-app does not allow forward operations, please add the '_forwards' attribute to the target; or in the app config file, add 'export const allowForward = true' ",
+  "watchuntil_timeout": "watchUntil timed out, target value not monitored"
 };
 
 const jsonStr = JSON.stringify(errorData);

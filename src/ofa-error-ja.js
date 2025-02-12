@@ -60,7 +60,8 @@ const errorData = {
   "invalidated_inject_host": "この要素は 'inject-host' で無効になります",
   "olink_out_app": "[olink] 要素は o-app 内でのみ使用できます。",
   "app_noforward": "これは最後のページです。これ以上「進む」操作は実行できません",
-  "need_forwards": "ターゲットの o-app では転送操作が許可されていません。ターゲットに '_forwards' 属性を追加するか、アプリ構成ファイルに 'export const allowedForward = true' を追加してください。"
+  "need_forwards": "ターゲットの o-app では転送操作が許可されていません。ターゲットに '_forwards' 属性を追加するか、アプリ構成ファイルに 'export const allowedForward = true' を追加してください。",
+  "watchuntil_timeout": "watchUntil がタイムアウトしました。ターゲット値は監視されていません"
 };
 
 const jsonStr = JSON.stringify(errorData);

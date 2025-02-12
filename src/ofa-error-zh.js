@@ -60,7 +60,8 @@ const errorData = {
   "invalidated_inject_host": "此元素将在'inject-host'中失效",
   "olink_out_app": "[olink]的元素仅允许在 o-app 内使用",
   "app_noforward": "已经是最后一页，不可以再执行 'forward' 操作",
-  "need_forwards": "目标o-app不允许前进操作，请给目标添加 '_forwards' 属性；或者在 app config文件中，添加 'export const allowForward = true' "
+  "need_forwards": "目标o-app不允许前进操作，请给目标添加 '_forwards' 属性；或者在 app config文件中，添加 'export const allowForward = true' ",
+  "watchuntil_timeout": "watchUntil超时，没有监听到目标值"
 };
 
 const jsonStr = JSON.stringify(errorData);
