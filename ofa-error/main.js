@@ -115,34 +115,40 @@ if (globalThis.navigator && navigator.language) {
 
   // 根据用户的语言首字母加载对应的错误匹配库，匹配开发人员报错信息
   (async () => {
-    if (globalThis.navigator && navigator.onLine && globalThis.localStorage) {
-      if (localStorage["ofa-errors"]) {
-        const targetLangErrors = JSON.parse(localStorage["ofa-errors"]);
-        Object.assign(errors, targetLangErrors);
-      }
+    if (!globalThis.localStorage) {
+      // 不支持 localStorage，不加载错误库
+      return;
+    }
 
-      const errCacheTime = localStorage["ofa-errors-time"];
+    if (globalThis.navigator && !navigator.onLine) {
+      // 网络不可用，不加载错误库
+      return;
+    }
 
-      if (!errCacheTime || Date.now() > Number(errCacheTime) + 5 * 60 * 1000) {
-        const targetLangErrors = await fetch(
-          `${error_origin}/${langFirst}.json`
-        )
+    if (localStorage["ofa-errors"]) {
+      const targetLangErrors = JSON.parse(localStorage["ofa-errors"]);
+      Object.assign(errors, targetLangErrors);
+    }
+
+    const errCacheTime = localStorage["ofa-errors-time"];
+
+    if (!errCacheTime || Date.now() > Number(errCacheTime) + 5 * 60 * 1000) {
+      const targetLangErrors = await fetch(`${error_origin}/${langFirst}.json`)
+        .then((e) => e.json())
+        .catch(() => null);
+
+      if (targetLangErrors) {
+        localStorage["ofa-errors"] = JSON.stringify(targetLangErrors);
+        localStorage["ofa-errors-time"] = Date.now();
+      } else {
+        targetLangErrors = await fetch(`${error_origin}/en.json`)
           .then((e) => e.json())
-          .catch(() => null);
-
-        if (targetLangErrors) {
-          localStorage["ofa-errors"] = JSON.stringify(targetLangErrors);
-          localStorage["ofa-errors-time"] = Date.now();
-        } else {
-          targetLangErrors = await fetch(`${error_origin}/en.json`)
-            .then((e) => e.json())
-            .catch((error) => {
-              return null;
-            });
-        }
-
-        Object.assign(errors, targetLangErrors);
+          .catch((error) => {
+            return null;
+          });
       }
+
+      Object.assign(errors, targetLangErrors);
     }
   })();
 }
